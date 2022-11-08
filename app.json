@@ -1,7 +1,8 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/esp/esp"
+    "pages/esp/esp",
+    "pages/user/user"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -10,16 +11,23 @@
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
-    "list":[{
-      "pagePath": "pages/index/index",
-      "iconPath": "",
-      "text": "首页"
-    },
-    {
-      "pagePath": "pages/esp/esp",
-      "iconPath": "",
-      "text": "ESP控制系统"
-    }]
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/esp/esp",
+        "iconPath": "",
+        "text": "ESP控制系统"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "",
+        "text": "用户"
+      }
+    ]
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
