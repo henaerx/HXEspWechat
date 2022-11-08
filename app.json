@@ -1,13 +1,25 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/main/main"
+    "pages/esp/esp"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Weixin",
+    "navigationBarTitleText": "HX",
     "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list":[{
+      "pagePath": "pages/index/index",
+      "iconPath": "",
+      "text": "首页"
+    },
+    {
+      "pagePath": "pages/esp/esp",
+      "iconPath": "",
+      "text": "ESP控制系统"
+    }]
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
